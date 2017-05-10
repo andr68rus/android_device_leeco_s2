@@ -137,12 +137,12 @@ PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml
 
 # Browser
-PRODUCT_PACKAGES += \
-    Gello
+#PRODUCT_PACKAGES += \
+#    Gello
 
 # Camera
-PRODUCT_PACKAGES += \
-    Snap
+#PRODUCT_PACKAGES += \
+#    Snap
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -335,8 +335,8 @@ PRODUCT_COPY_FILES += \
 # SDcard
 PRODUCT_CHARACTERISTICS := nosdcard
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sys.sdcardfs=true
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.sys.sdcardfs=true
 
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
